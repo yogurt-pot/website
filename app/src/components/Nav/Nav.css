@@ -1,3 +1,17 @@
 .uk-navbar-padding-500 {
   padding: 0px 500px;
 }
+
+* {
+  font-family: Muli !important;
+}
+
+.uk-logo {
+  font-weight: 600;
+  color: #232323;
+}
+
+nav {
+  background-color: white !important;
+  border-bottom: 2px solid #efefef;
+}

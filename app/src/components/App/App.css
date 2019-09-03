@@ -1,3 +1,16 @@
+#app-mount {
+  font-family: "Muli", sans-serif !important;
+}
+
+body,
+html {
+  font-family: "Muli", sans-serif !important;
+}
+
+* {
+  font-family: Muli;
+}
+
 .App {
   text-align: center;
 }

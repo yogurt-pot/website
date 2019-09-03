@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../logo.svg";
 import Nav from "../Nav/Nav";
 import "./App.css";
 
