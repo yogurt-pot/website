@@ -1,4 +1,5 @@
 import React from "react";
+import "./OneLineInstall.css";
 
 function OLI() {
   return (

@@ -1,0 +1,35 @@
+.main-title {
+  margin: 10px 0;
+  font-family: "Segoe UI", sans-serif !important;
+  font-weight: 100;
+  color: white;
+}
+
+.main-anim {
+  animation: welcome 1s normal forwards ease-in-out;
+  animation-iteration-count: 1;
+  border-bottom: 2px solid #efefef;
+}
+
+.darkmode--activated .main-anim {
+  animation: none;
+}
+
+.darkmode--activated .main-title {
+  animation: none;
+  color: black;
+}
+
+.darkmode--activated .uk-button {
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+@keyframes welcome {
+  0% {
+  }
+  100% {
+    background-color: rgb(255, 129, 129);
+  }
+}

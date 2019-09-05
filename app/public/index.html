@@ -33,6 +33,17 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+    <script>
+      var options = {
+        time: "0.3s",
+        saveInCookies: true,
+        label: "🌓"
+      };
+
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+    </script>
     <div id="root"></div>
   </body>
 </html>

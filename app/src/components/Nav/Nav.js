@@ -7,6 +7,10 @@ const openGithubRepo = () => {
   window.open("https://github.com/yogurt-pot/yogurt-pot");
 };
 
+export const openDocs = () => {
+  window.location.href = "/docs";
+};
+
 const main = () => {
   window.location.href = "/";
 };
@@ -16,8 +20,13 @@ function Nav() {
     <div class="NavToolbar">
       <nav class="uk-navbar-container uk-margin uk-navbar-center" uk-navbar>
         <div class="uk-navbar-left uk-navbar-padding-500">
-          <a class="uk-navbar-item uk-logo " onClick={main}>
-            <img src={logo} alt="Yogurt Pot Logo" width="50"></img>
+          <a class="uk-navbar-item uk-logo logo-name" onClick={main}>
+            <img
+              src={logo}
+              alt="Yogurt Pot Logo"
+              width="50"
+              class="darkmode-ignore"
+            ></img>
             &nbsp; Yogurt Pot
           </a>
         </div>
@@ -34,7 +43,10 @@ function Nav() {
             </li>
             &nbsp;&nbsp;
             <li>
-              <a style={{ minHeight: "50px", borderRadius: "50px" }}>
+              <a
+                style={{ minHeight: "50px", borderRadius: "50px" }}
+                onClick={openDocs}
+              >
                 <span uk-icon="icon: file-text"></span>
                 &nbsp;Docs
               </a>
