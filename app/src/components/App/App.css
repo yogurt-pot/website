@@ -1,14 +1,14 @@
 #app-mount {
-  font-family: "Muli", sans-serif !important;
+  font-family: "'Segoe UI', sans-serif", sans-serif !important;
 }
 
 body,
 html {
-  font-family: "Muli", sans-serif !important;
+  font-family: "'Segoe UI', sans-serif", sans-serif !important;
 }
 
 * {
-  font-family: Muli;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .App {

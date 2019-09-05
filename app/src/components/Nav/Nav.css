@@ -3,12 +3,17 @@
 }
 
 * {
-  font-family: Muli !important;
+  font-family: "Segoe UI", sans-serif !important;
 }
 
-.uk-logo {
-  font-weight: 600;
+.uk-logo,
+a {
+  font-weight: 200;
   color: #232323;
+}
+
+.uk-navbar-right {
+  padding: 0px 500px 0px 0px;
 }
 
 nav {
